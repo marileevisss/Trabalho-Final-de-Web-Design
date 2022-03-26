@@ -1,137 +1,163 @@
-* {
-    padding: 0%;
-    margin: 0%;
+/* ESTLIZANDO A SESSÃO ULTIMAS DO ECONAÇU */
+
+#ultimas-do-econacu{
+    background: linear-gradient(90deg, #131A22 7.11%, #2F3E51 74.04%);
+    box-shadow: 0px 20px 20px #8492A6;
+    width:1200px;
+    margin:auto;
+    font-family: 'Raleway', sans-serif;
+    
 }
 
-.realização-apoio {
-    max-width: 1200px;
-    height: 262px;
-    margin-left: 132px;
-    margin-top: 56px;
+#pontos-esquerda{
+    background-image:url("assets/img/pontos.svg");
+    background-repeat: no-repeat;
+    background-position: -20px 22px;
 }
 
-.realização-apoio-textos {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 120%;
-    color: #1F2D3D;
+#pontos-direita{
+    background-image: url("assets/img/pontos.svg");
+    background-repeat:no-repeat;
+    background-position:right 361px;
 }
 
-.realização-apoio-textos h3 {
-    display: inline;
-    margin-right: 70px;
+#container div{
+    max-width:49.6%;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
 }
 
-.realização-apoio-imagens {
-    display: -webkit-inline-box;
-    -webkit-box-align: center;
+#container div:first-child{
+    padding-left:96px;
+    padding-right:54px;
 }
 
-#img-UERN {
-    margin-top: 13px;
-    margin-left: 39px;
-    margin-right: 134px;
+#container div:last-child{
+    padding-right:96px;
 }
+/* ESTILIZANDO O LADO ESQUERDO */
+/* PRIMEIRO TITULO */
 
-#img-UFRN, #img-UFERSA, #img-IFRN {
-    margin-top: 29px;
-    margin-right: 33px;
-}
-
-.convidados {
-    max-width: 1200px;
-    height: 733px;
-}
-
-.convidados-textos {
-    height: 162px;
-}
-
-#convidados-textos-grande {
-    position: absolute;
-    width: 1150.64px;
-    height: 162px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 132px;
-    line-height: 120%;
-    opacity: 0.05;
-    color: white;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #EB5151;
-}
-
-.convidados-textos-titulo{
-    margin-top: 57px;
-    position: absolute;
-    font-family: 'Raleway';
-    font-style: normal;
+#pontos-direita h2{
     font-weight: 800;
-    font-size: 28px;
-    line-height: 120%;
-    text-transform: uppercase;
-    color: #273444;
-    margin-left: 508px;
+    font-size:28px;
+    line-height:33.6px;
+    padding-top:47px;
+    margin-left:96px;
+    margin-bottom:50px;
+    color:#3C4858;
 }
 
-#convidados-textos-linhazinha {
-    position: absolute;
-    width: 116px;
-    height: 4px;
-    background: #EB5151;
-    margin-top: 105px;
-    margin-left: 539px;
+/* SUBTITULO H3 */
+#container div h3{
+    font-weight: 800;
+    font-size: 18px;
+    line-height:21.6px;
+    color:#E5E9F2;
+    margin-top:0;
 }
 
-.convidados-imagens {
-    display: -webkit-inline-box;
-    margin-top: 12px;
+/* SUBTITULO H5 */
+#container div h5{
+    font-weight:300;
+    font-size:12px;
+    line-height:14.4px;
+    color:#8492A6;
 }
 
-#convidado-um {
-    width: 325px;
-    height: 445px;
-    background-image: linear-gradient(180deg, rgba(34, 34, 34, 0) 75%, #222222 90%), url('assets/img/image31.png');
-    margin-right: 15px;
-    margin-left: 98px;
+/* PARAGRAFO DA ESQUERDA */
+#container p{
+    font-weight:400;
+    font-size:14px;
+    line-height:22.4px;
+    color:#C0CCDA;
+    margin-bottom:56px;
 }
 
-#convidado-dois {
-    width: 325px;
-    height: 445px;
-    background-image: linear-gradient(180deg, rgba(34, 34, 34, 0) 75%, #222222 90%), url('assets/img/image29.png');
-    margin-right: 15px;
+/* BOTÃO DO LADO ESQUERDO */
+#ler-mais{
+    width:159px;
+    height:38px;
+    padding: 8px 48px;
+    border: 1px solid #FAB900;
+    font-weight: 700;
+    font-size:14px;
+    line-height:22.4px;
+    color:#FAB900;
+    text-decoration: none;
+    text-align: center;
 }
 
-#convidado-tres {
-    width: 325px;
-    height: 445px;
-    background-image: linear-gradient(180deg, rgba(34, 34, 34, 0) 75%, #222222 90%), url('assets/img/image30.png');
+#ler-mais:hover{
+    background-color:#FAB900;
+    color:black;
+    transition:500ms;
 }
 
-.convidado-texto {
-    padding-top: 374px;
-    padding-left: 24px;
+/* FIM DA ESTILIZAÇÃO DO LADO ESQUERDO */
+/* INICIO DA ESTILIZAÇÃO DO LADO DIREITO */
+
+.clipping{
+    font-weight: 700;
+    font-size:10px;
+    line-height:16px;
+    color:#C0CCDA;
+    padding: 3px 15px;
+    border: 1px solid #8492A6;
+    margin-right:16px;
 }
 
-.convidado-nome {
-    font-family: 'Raleway';
-    font-style: normal;
+#container article h4{
+    font-weight:300;
+    font-size:12px;
+    line-height:19.2px;
+    color:#C0CCDA;
+    margin-bottom:8px;
+}
+
+.noticia-tribuna{
     font-weight: 700;
     font-size: 16px;
-    line-height: 140%;
-    text-transform: uppercase;
-    color: #E62121;
+    line-height:22.4px;
+    color:#C0CCDA;
+    text-decoration: none;
 }
 
-.convidado-descricao {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19.6px;
-    color: #D8D6D3;
+#container div article{
+    margin-bottom:49px;
+}
+
+#container div article:last-child{
+    margin-bottom:31px;
+}
+
+#ver-tudo{
+    font-weight: 700;
+    font-size:14px;
+    line-height:14px;
+    color:#FFC82C;
+    text-decoration: none;
+    display:block;
+    width:100px;
+    margin-left: auto;
+    margin-top:53px;
+}
+
+#ver-tudo img{
+    margin-right:11px;
+    vertical-align: middle;
+}
+
+#container div h3::after{
+    content:'';
+    display:block;
+    margin-top:11px;
+    width:60px;
+    height:4px;
+    background-color: #FFC82C;
+}
+
+#container div:last-child article:first-child h4{
+    margin-top:0;
 }
